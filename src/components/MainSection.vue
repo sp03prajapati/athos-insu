@@ -1,4 +1,7 @@
+<script setup>
 
+
+</script>
 
 <template>
      <main class="main">
@@ -16,7 +19,7 @@
         <a href="#about" class="btn-get-started">Get Started</a>
         <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
       </div>
-      <img src="@/assets/imgNew/insurance_caresol.png" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+      <!-- <img src="/src/assets/ImgNew/insurance_caresol.png" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300"> -->
     </div>
   </div>
 
