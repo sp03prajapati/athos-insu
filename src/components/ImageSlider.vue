@@ -14,16 +14,11 @@
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""></swiper-slide>
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""></swiper-slide>
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""></swiper-slide>
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""></swiper-slide>
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""></swiper-slide>
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""></swiper-slide>
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""></swiper-slide>
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""></swiper-slide>
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""></swiper-slide>
-      <swiper-slide><img src="@/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""></swiper-slide>
+      <swiper-slide><img src="../assets/ImgNew/ImageSlider/man-work-working-laptop-desk.jpg" class="testimonial-img" alt=""></swiper-slide>
+      <swiper-slide><img src="../assets/ImgNew/ImageSlider/medium-shot-woman-working-laptop.jpg" class="testimonial-img" alt=""></swiper-slide>
+      <swiper-slide><img src="../assets/ImgNew/ImageSlider/portrait-craftsman.jpg" class="testimonial-img" alt=""></swiper-slide>
+      <swiper-slide><img src="../assets/ImgNew/ImageSlider/businessman-black-suit-makes-thumbs-up.jpg" class="testimonial-img" alt=""></swiper-slide>
+      <swiper-slide><img src="../assets/ImgNew/ImageSlider/business-finance-employment-female.jpg" class="testimonial-img" alt=""></swiper-slide>
     </swiper>
   </template>
   <script>
