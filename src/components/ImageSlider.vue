@@ -89,10 +89,11 @@ body {
 
 .swiper-slide img {
   display: block;
-  width: 100%;
+  width: 105%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  box-shadow: 8px 8px 15px rgba(0.5, 0.5, 0.5, 0.5);
+  border-radius: 5px;
 }
 
 
