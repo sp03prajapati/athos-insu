@@ -5,15 +5,15 @@
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
-    <swiper
+   
+      <swiper
       :slidesPerView="'auto'"
       :spaceBetween="30"
       :pagination="{
         clickable: true,
       }"
       :modules="modules"
-      class="mySwiper"
-    >
+      class="mySwiper">
       <swiper-slide><img src="../assets/ImgNew/ImageSlider/man-work-working-laptop-desk.jpg" class="testimonial-img" alt=""></swiper-slide>
       <swiper-slide><img src="../assets/ImgNew/ImageSlider/medium-shot-woman-working-laptop.jpg" class="testimonial-img" alt=""></swiper-slide>
       <swiper-slide><img src="../assets/ImgNew/ImageSlider/portrait-craftsman.jpg" class="testimonial-img" alt=""></swiper-slide>
@@ -71,6 +71,9 @@ body {
   width: 100%;
   height: 100%;
 }
+.swiper-wrapper{
+  padding-bottom: 40px;
+}
 
 .swiper-slide {
   text-align: center;
@@ -92,6 +95,7 @@ body {
   border-radius: 10px;
 }
 
+
 .swiper-slide {
   width: 20%;
 }
@@ -104,4 +108,26 @@ body {
   width: 40%;
 } */
 
+@media only screen and (max-width: 600px) {
+ 
+.swiper-wrapper {
+  background: #fff;
+  display: block;
+  justify-items: center;
+}
+  .swiper-slide img {
+    width: 530%;
+    height: 100%;
+    border-radius: 0px;
+    object-fit: cover;
+
+}
+.swiper-pagination-bullet
+{
+  display: none;
+}
+.swiper-wrapper{
+  padding-bottom: 40px;
+}
+}
 </style>
