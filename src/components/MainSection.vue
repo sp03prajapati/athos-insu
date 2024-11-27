@@ -574,9 +574,11 @@
 </section><!-- /Faq Section -->
 
 <div>
-   
     <ImageSlider/>
-  </div>
+</div>
+<div>
+  <NewsLetter/>
+</div>
 
 <!-- Contact Section -->
 <section id="contact" class="contact section">
@@ -664,11 +666,13 @@
 </template>
 <script>
 import ImageSlider from './ImageSlider.vue'; // Import the child component
+import NewsLetter from './NewsLetter.vue';
 
 export default {
  
   components: {
     ImageSlider, // Register the child component
+    NewsLetter
   },
 };
 </script>
